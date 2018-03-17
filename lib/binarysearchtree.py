@@ -6,3 +6,6 @@ class Node:
         self.right = right
 
 class BinarySearchTree:
+
+    def __init__(self, rootNode = None):
+        self.rootNode = rootNode
